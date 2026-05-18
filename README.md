@@ -96,6 +96,18 @@ Retorna ao sistema de origem uma resposta estruturada com os dados do caso class
 
 ---
 
+## Importando o Fluxo no Make
+
+O arquivo [`blueprint.json`](./blueprint.json) contém o fluxo completo pronto para importação no Make. Para utilizá-lo:
+
+1. Acesse sua conta no [Make](https://www.make.com)
+2. Crie um novo cenário
+3. Clique em **"..."** (mais opções) → **Import Blueprint**
+4. Selecione o arquivo `blueprint.json` deste repositório
+5. Configure suas credenciais (OpenRouter API Key) e ative o webhook
+
+---
+
 ## Autor
 
 Desenvolvido por **Davi Augusto**
